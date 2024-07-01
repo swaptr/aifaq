@@ -1,7 +1,8 @@
 import { cn } from "@/lib/utils"
 import { Button } from "@headlessui/react"
+import { ButtonHTMLAttributes } from "react"
 
-type Props = {
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: React.ReactNode,
     className?: string
 }

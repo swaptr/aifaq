@@ -2,9 +2,7 @@ import { cn } from "@/lib/utils"
 import { Textarea } from "@headlessui/react"
 import { TextareaHTMLAttributes } from "react";
 import IconButton from "./ui/IconButton";
-import { IconHyperledger } from "./icons/IconHyperledger";
 import { IconUp } from "./icons/IconUp";
-import { IconClip } from "./icons/IconClip";
 import ChatAttachDropdown from "./ChatAttachDropdown";
 
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> { }

@@ -1,0 +1,6 @@
+__pycache__
+.env
+.ipynb_checkpoints
+*.db
+.ruff_cache
+.mypy_cache

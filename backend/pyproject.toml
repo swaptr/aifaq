@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Swapnil Tripathi <swapnil06.st@gmail.com>"]
+readme = "../README.md"
+license = "../LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = { extras = ["standard"], version = "^0.30" }
+fastapi = "0.111.0"
+pydantic = "^2.7"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+strict = true
+exclude = ["venv", ".venv", "alembic"]
+
+[tool.ruff]
+target-version = "py312"
+exclude = ["alembic"]
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "UP",     # pyupgrade
+    "ARG001", # unused arguments in functions
+]
+ignore = [
+    "E501", # line too long, handled by black
+    "B008", # do not perform function calls in argument defaults
+    "W191", # indentation contains tabs
+    "B904", # Allow raising exceptions without from e, for HTTPException
+]
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
