@@ -6,55 +6,6 @@ const Sidebar = ({ }: Props) => {
             <ul className="pt-12">
                 <li>What is Hyperledger Iroha?</li>
                 <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>What is Hyperledger Iroha?</li>
-                <li>How to run an aries node on Linux?</li>
-                <li>What is Hyperledger Iroha?</li>
             </ul>
         </aside>
     )
