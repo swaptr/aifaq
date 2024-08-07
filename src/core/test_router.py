@@ -11,7 +11,9 @@ class ConversationResponse(BaseModel):
     answer: str
 
 #Initialization of the router :
-api_router = APIRouter()
+test_router = APIRouter(
+    prefix="/test"
+)
 
 
 # Responses of the questions : 
@@ -49,7 +51,7 @@ responses = {
 }
 
 #post route where the user can ask questions and get response 
-@api_router.post("/conversation", response_model=ConversationResponse)
+@test_router.post("/conversation", response_model=ConversationResponse)
 def post_conversation(item: ConversationRequest) -> ConversationResponse:
     question_key = item.question.lower().replace(" ", "_").replace("?", "")
     if question_key in responses:

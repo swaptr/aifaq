@@ -1,7 +1,6 @@
 from utils import load_yaml_file
 from main_router import main_router
-from rag_router import rag_router
-from api_router import api_router 
+from test_router import test_router 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -22,7 +21,6 @@ app.add_middleware(
 
 # Include routers
 app.include_router(main_router)
-api_router.include_router(rag_router)
-app.include_router(api_router,prefix="/api")
+app.include_router(test_router)
 
 uvicorn.run(app,host=config_data["host"],port=config_data["port"])
