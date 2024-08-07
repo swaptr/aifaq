@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from main import get_conversation
+from utils import get_conversation
 
 
 conversational_rag_chain = get_conversation()
